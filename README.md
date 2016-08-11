@@ -1,0 +1,2 @@
+# YXJPullScale
+UITableView,UICollectionView,UIScrollerView的顶部放大控件,不仅支持图片,也支持任意视图
