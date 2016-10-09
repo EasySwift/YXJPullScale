@@ -11,7 +11,7 @@ import YXJPullScale
 
 class ViewController: UITableViewController {
     
-    private var headerView: MineHeaderView!
+    fileprivate var headerView: MineHeaderView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,7 @@ class ViewController: UITableViewController {
         // 用户详情
         headerView = MineHeaderView()
         
-        self.tableView.addPullScaleFuncInVC(self, originalHeight: self.tableView.frame.size.width / (320.0 / 200.0), hasNavBar: false)
+        self.tableView.addPullScaleFunc(inVC: self, originalHeight: self.tableView.frame.size.width / (320.0 / 200.0), hasNavBar: false)
         
         self.tableView.scaleView.mainView = headerView
         self.tableView.scaleView.scaleImage = UIImageView(image: UIImage(named: "left_headerBg"))

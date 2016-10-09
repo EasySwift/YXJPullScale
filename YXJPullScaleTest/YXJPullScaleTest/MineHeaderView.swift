@@ -25,8 +25,8 @@ class MineHeaderView: YXJXibView {
         initView()
     }
 
-    private func initView() {
-        self.logoImg.backgroundColor = UIColor.yellowColor()
+    fileprivate func initView() {
+        self.logoImg.backgroundColor = UIColor.yellow
         self.logoImg.layer.masksToBounds = true
         self.logoImg.layer.cornerRadius = self.logoImg.frame.size.width / 2
     }

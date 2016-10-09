@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		547BD572AB09585A3FC71864 /* Pods_YXJPullScaleTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8DF55410A8015C77B6067B /* Pods_YXJPullScaleTest.framework */; };
+		DE5B4B951D9ED32F00AAC825 /* YXJPullScale.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5B4B931D9ED32F00AAC825 /* YXJPullScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE5B4B981D9ED32F00AAC825 /* YXJPullScale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B4B911D9ED32F00AAC825 /* YXJPullScale.framework */; };
+		DE5B4B991D9ED32F00AAC825 /* YXJPullScale.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B4B911D9ED32F00AAC825 /* YXJPullScale.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DE5B4BA21D9ED36400AAC825 /* UIScrollView+PullScale.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5B4B9E1D9ED36400AAC825 /* UIScrollView+PullScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE5B4BA31D9ED36400AAC825 /* UIScrollView+PullScale.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B4B9F1D9ED36400AAC825 /* UIScrollView+PullScale.m */; };
+		DE5B4BA41D9ED36400AAC825 /* YXJPullScaleView.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5B4BA01D9ED36400AAC825 /* YXJPullScaleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE5B4BA51D9ED36400AAC825 /* YXJPullScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B4BA11D9ED36400AAC825 /* YXJPullScaleView.m */; };
 		DEC474891D5CC0E000491DB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC474881D5CC0E000491DB6 /* AppDelegate.swift */; };
 		DEC4748B1D5CC0E000491DB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC4748A1D5CC0E000491DB6 /* ViewController.swift */; };
 		DEC4748E1D5CC0E000491DB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC4748C1D5CC0E000491DB6 /* Main.storyboard */; };
@@ -17,10 +24,41 @@
 		DEC4749D1D5CC43A00491DB6 /* MineHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC4749B1D5CC43A00491DB6 /* MineHeaderView.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DE5B4B961D9ED32F00AAC825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEC4747D1D5CC0E000491DB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE5B4B901D9ED32F00AAC825;
+			remoteInfo = YXJPullScale;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE5B4B9D1D9ED32F00AAC825 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DE5B4B991D9ED32F00AAC825 /* YXJPullScale.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4A8DF55410A8015C77B6067B /* Pods_YXJPullScaleTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXJPullScaleTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E0DF6A46911238FB6A22C1E /* Pods-YXJPullScaleTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXJPullScaleTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXJPullScaleTest/Pods-YXJPullScaleTest.debug.xcconfig"; sourceTree = "<group>"; };
 		6F447E1CD5D454B5E08F2161 /* Pods-YXJPullScaleTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXJPullScaleTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXJPullScaleTest/Pods-YXJPullScaleTest.release.xcconfig"; sourceTree = "<group>"; };
+		DE5B4B911D9ED32F00AAC825 /* YXJPullScale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YXJPullScale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5B4B931D9ED32F00AAC825 /* YXJPullScale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXJPullScale.h; sourceTree = "<group>"; };
+		DE5B4B941D9ED32F00AAC825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5B4B9E1D9ED36400AAC825 /* UIScrollView+PullScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+PullScale.h"; path = "../../Pod/UIScrollView+PullScale.h"; sourceTree = "<group>"; };
+		DE5B4B9F1D9ED36400AAC825 /* UIScrollView+PullScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+PullScale.m"; path = "../../Pod/UIScrollView+PullScale.m"; sourceTree = "<group>"; };
+		DE5B4BA01D9ED36400AAC825 /* YXJPullScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXJPullScaleView.h; path = ../../Pod/YXJPullScaleView.h; sourceTree = "<group>"; };
+		DE5B4BA11D9ED36400AAC825 /* YXJPullScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXJPullScaleView.m; path = ../../Pod/YXJPullScaleView.m; sourceTree = "<group>"; };
 		DEC474851D5CC0E000491DB6 /* YXJPullScaleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXJPullScaleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC474881D5CC0E000491DB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEC4748A1D5CC0E000491DB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,10 +71,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DE5B4B8D1D9ED32F00AAC825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DEC474821D5CC0E000491DB6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5B4B981D9ED32F00AAC825 /* YXJPullScale.framework in Frameworks */,
 				547BD572AB09585A3FC71864 /* Pods_YXJPullScaleTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,10 +107,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DE5B4B921D9ED32F00AAC825 /* YXJPullScale */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B4B9E1D9ED36400AAC825 /* UIScrollView+PullScale.h */,
+				DE5B4B9F1D9ED36400AAC825 /* UIScrollView+PullScale.m */,
+				DE5B4BA01D9ED36400AAC825 /* YXJPullScaleView.h */,
+				DE5B4BA11D9ED36400AAC825 /* YXJPullScaleView.m */,
+				DE5B4B931D9ED32F00AAC825 /* YXJPullScale.h */,
+				DE5B4B941D9ED32F00AAC825 /* Info.plist */,
+			);
+			path = YXJPullScale;
+			sourceTree = "<group>";
+		};
 		DEC4747C1D5CC0E000491DB6 = {
 			isa = PBXGroup;
 			children = (
 				DEC474871D5CC0E000491DB6 /* YXJPullScaleTest */,
+				DE5B4B921D9ED32F00AAC825 /* YXJPullScale */,
 				DEC474861D5CC0E000491DB6 /* Products */,
 				D26686299ECF0721AF81DA2B /* Pods */,
 				4B5DA1971D5481D5645D14AF /* Frameworks */,
@@ -75,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				DEC474851D5CC0E000491DB6 /* YXJPullScaleTest.app */,
+				DE5B4B911D9ED32F00AAC825 /* YXJPullScale.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +157,38 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		DE5B4B8E1D9ED32F00AAC825 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5B4BA21D9ED36400AAC825 /* UIScrollView+PullScale.h in Headers */,
+				DE5B4B951D9ED32F00AAC825 /* YXJPullScale.h in Headers */,
+				DE5B4BA41D9ED36400AAC825 /* YXJPullScaleView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		DE5B4B901D9ED32F00AAC825 /* YXJPullScale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5B4B9C1D9ED32F00AAC825 /* Build configuration list for PBXNativeTarget "YXJPullScale" */;
+			buildPhases = (
+				DE5B4B8C1D9ED32F00AAC825 /* Sources */,
+				DE5B4B8D1D9ED32F00AAC825 /* Frameworks */,
+				DE5B4B8E1D9ED32F00AAC825 /* Headers */,
+				DE5B4B8F1D9ED32F00AAC825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXJPullScale;
+			productName = YXJPullScale;
+			productReference = DE5B4B911D9ED32F00AAC825 /* YXJPullScale.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		DEC474841D5CC0E000491DB6 /* YXJPullScaleTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEC474971D5CC0E000491DB6 /* Build configuration list for PBXNativeTarget "YXJPullScaleTest" */;
@@ -107,10 +199,12 @@
 				DEC474831D5CC0E000491DB6 /* Resources */,
 				9E4BAA836674AE43DDC50C9D /* [CP] Embed Pods Frameworks */,
 				A5BF193A0813296AE32D0D04 /* [CP] Copy Pods Resources */,
+				DE5B4B9D1D9ED32F00AAC825 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DE5B4B971D9ED32F00AAC825 /* PBXTargetDependency */,
 			);
 			name = YXJPullScaleTest;
 			productName = YXJPullScaleTest;
@@ -124,11 +218,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "袁晓钧";
 				TargetAttributes = {
+					DE5B4B901D9ED32F00AAC825 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 					DEC474841D5CC0E000491DB6 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -146,11 +245,19 @@
 			projectRoot = "";
 			targets = (
 				DEC474841D5CC0E000491DB6 /* YXJPullScaleTest */,
+				DE5B4B901D9ED32F00AAC825 /* YXJPullScale */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DE5B4B8F1D9ED32F00AAC825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DEC474831D5CC0E000491DB6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,6 +320,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DE5B4B8C1D9ED32F00AAC825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5B4BA51D9ED36400AAC825 /* YXJPullScaleView.m in Sources */,
+				DE5B4BA31D9ED36400AAC825 /* UIScrollView+PullScale.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DEC474811D5CC0E000491DB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,6 +340,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE5B4B971D9ED32F00AAC825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE5B4B901D9ED32F00AAC825 /* YXJPullScale */;
+			targetProxy = DE5B4B961D9ED32F00AAC825 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DEC4748C1D5CC0E000491DB6 /* Main.storyboard */ = {
@@ -245,6 +369,59 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DE5B4B9A1D9ED32F00AAC825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YXJPullScale/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YXJ.YXJPullScale;
+				PRODUCT_MODULE_NAME = YXJPullScale;
+				PRODUCT_NAME = YXJPullScale;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE5B4B9B1D9ED32F00AAC825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YXJPullScale/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YXJ.YXJPullScale;
+				PRODUCT_MODULE_NAME = YXJPullScale;
+				PRODUCT_NAME = YXJPullScale;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DEC474951D5CC0E000491DB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -259,8 +436,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -304,8 +483,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -324,6 +505,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -332,11 +514,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E0DF6A46911238FB6A22C1E /* Pods-YXJPullScaleTest.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YXJPullScaleTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YXJ.YXJPullScaleTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -344,17 +528,27 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F447E1CD5D454B5E08F2161 /* Pods-YXJPullScaleTest.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YXJPullScaleTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YXJ.YXJPullScaleTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DE5B4B9C1D9ED32F00AAC825 /* Build configuration list for PBXNativeTarget "YXJPullScale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5B4B9A1D9ED32F00AAC825 /* Debug */,
+				DE5B4B9B1D9ED32F00AAC825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		DEC474801D5CC0E000491DB6 /* Build configuration list for PBXProject "YXJPullScaleTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
